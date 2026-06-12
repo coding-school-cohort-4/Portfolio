@@ -14,6 +14,7 @@
   justify-content: space-between;
 }
 
+
 #logo {
   width: 100px;
   cursor: pointer;
@@ -29,7 +30,9 @@
   cursor: pointer;
   position: relative;
   padding-bottom: 5px;
+ 
 }
+
 
 #menu span a{
   text-decoration: none;
@@ -47,6 +50,11 @@
   display: flex;
   gap: 20px;
   font-size: 20px;
+}
+#social img {
+  width: 20px;
+  height: 20px;
+  display: none;
 }
 
 #social span {

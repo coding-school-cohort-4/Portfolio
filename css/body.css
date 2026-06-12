@@ -17,7 +17,7 @@
 #box-1 {
     background: yellow;
     padding: 30px;
-     width: 350px;
+     width: 20%;
 }
 
 #white-background-container {
@@ -96,28 +96,42 @@ button {
     width: 100%;
     border: none;
     color: white;
+    cursor: pointer;
     border-radius: 10px;
 }
 #button-box-1{
     background: #0855F3;
 }
+
+#button-box-1:hover {
+    background: #013293;
+}
+
 #button-box-2{
     background-color: green;
 }
+#button-box-2:hover {
+    background-color: rgb(1, 83, 1);
+}
+
 #button-box-3{
-    background-color:rgba(28, 3, 130, 0.996) ;
+    background-color:rgba(38, 5, 172, 0.996) ;
+}
+
+#button-box-3:hover{
+    background-color:rgba(24, 2, 113, 0.996) ;
 }
 
 #box-2 {
     background: green;
     padding: 30px;
-    width: 350px;
+    width: 20%;
 }
 
 #box-3 {
     background: #0855F3;
     padding: 30px;
-     width: 350px;
+     width: 20%;
 }
 #icon-box-2{
     color: green;

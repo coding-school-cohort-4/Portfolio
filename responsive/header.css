@@ -1,0 +1,21 @@
+
+@media(max-width:231px){
+  #navbar {
+    padding: 15px 20px;
+  }
+}
+
+@media(max-width:543px){
+   #menu span {
+    display: none;
+  }
+  #social img {
+    display: block;
+  }
+}
+
+@media(max-width:395px){
+  #social span i{
+    display: none;
+  }
+}
